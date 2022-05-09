@@ -24,6 +24,6 @@ add_library(generator STATIC ${GENERATOR_SOURCE})
 
 set(PROGRAM_SOURCE ${CMAKE_CURRENT_LIST_DIR}/src/Generator.cpp)
 
-add_executable(program ${PROGRAM_SOURCE})
+add_executable(GameIdeaGenerator ${PROGRAM_SOURCE})
 
-target_link_libraries(program generator)
+target_link_libraries(GameIdeaGenerator generator)
